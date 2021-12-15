@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tomee>
+   <!-- <Resource id="ds" type="DataSource">
+        JdbcDriver org.hsqldb.jdbcDriver
+        JdbcUrl jdbc:hsqldb:hsql://localhost/xdb
+        UserName sa
+        Password
+        JtaManaged true
+    </Resource>  -->
+
+ <Resource id="ds" type="DataSource">
+        JdbcDriver org.hsqldb.jdbcDriver
+        JdbcUrl jdbc:hsqldb:file:target/db/mybookstore;shutdown=true
+        UserName sa
+        Password
+        JtaManaged true
+    </Resource>
+    <Resource id="cellarDS" type="javax.sql.DataSource">#Mon Nov 01 14:24:21 CET 2021
+        jdbcDriver=org.mariadb.jdbc.Driver
+        password=cellarwine
+        userName=cellar
+        jdbcUrl=jdbc\:mariadb\://localhost\:3306/cellar
+        jtaManaged = true
+        testOnReturn = true
+        testWhileIdle = true
+        timeBetweenEvictionRunsMillis = 2
+        initialSize = 2
+        minIdle = 2
+        validationQuery = select 1
+    </Resource>
+</tomee>

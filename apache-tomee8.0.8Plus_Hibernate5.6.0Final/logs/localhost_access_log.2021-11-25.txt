@@ -1,0 +1,11 @@
+127.0.0.1 - - [25/Nov/2021:17:53:53 +0100] "GET /tomee8.0.8_hibernate5.6Final HTTP/1.1" 302 -
+127.0.0.1 - - [25/Nov/2021:17:53:53 +0100] "GET /tomee8.0.8_hibernate5.6Final HTTP/1.1" 302 -
+127.0.0.1 - - [25/Nov/2021:17:53:53 +0100] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2021:17:53:54 +0100] "GET /tomee8.0.8_hibernate5.6Final/ HTTP/1.1" 404 800
+127.0.0.1 - - [25/Nov/2021:17:53:54 +0100] "GET /favicon.ico HTTP/1.1" 404 698
+127.0.0.1 - - [25/Nov/2021:17:55:10 +0100] "GET /tomee8.0.8_hibernate5.6Final/api/echo HTTP/1.1" 200 7
+127.0.0.1 - - [25/Nov/2021:17:55:11 +0100] "GET /favicon.ico HTTP/1.1" 404 698
+127.0.0.1 - - [25/Nov/2021:17:56:09 +0100] "GET /tomee8.0.8_hibernate5.6Final/api/echo/CIAO HTTP/1.1" 500 4846
+127.0.0.1 - - [25/Nov/2021:17:56:19 +0100] "GET /tomee8.0.8_hibernate5.6Final/api/echo/5 HTTP/1.1" 500 4846
+127.0.0.1 - - [25/Nov/2021:17:56:23 +0100] "GET /tomee8.0.8_hibernate5.6Final/api/echo/ HTTP/1.1" 200 7
+127.0.0.1 - - [25/Nov/2021:17:58:13 +0100] "GET /tomee8.0.8_hibernate5.6Final/api/echo/II HTTP/1.1" 500 4846

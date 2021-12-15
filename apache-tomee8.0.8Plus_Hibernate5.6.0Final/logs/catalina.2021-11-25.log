@@ -1,0 +1,805 @@
+25-Nov-2021 17:51:41.768 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat (TomEE)/9.0.52 (8.0.8)
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jul 31 2021 04:12:17 UTC
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.52.0
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.8.0_162\jre
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_162-b12
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee
+25-Nov-2021 17:51:41.772 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee
+25-Nov-2021 17:51:43.313 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\conf\logging.properties
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\lib\openejb-javaagent.jar
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\temp
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee
+25-Nov-2021 17:51:43.337 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee
+25-Nov-2021 17:51:43.341 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\lib
+25-Nov-2021 17:51:43.341 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+25-Nov-2021 17:51:43.341 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+25-Nov-2021 17:51:44.251 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_162\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\AOMEI\AOMEI Backupper 6.4.0;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mauro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MariaDB 10.5\bin;C:\xampp\php;C:\Users\mauro\AppData\Local\ComposerSetup\bin;C:\Users\mauro\AppData\Roaming\Composer\vendor\bin;C:\Users\mauro\AppData\Roaming\npm;C:\Users\mauro\AppData\Local\Programs\Microsoft VS Code\bin;.]
+25-Nov-2021 17:52:20.447 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2021 17:52:33.655 INFORMAZIONI [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+25-Nov-2021 17:52:33.703 INFORMAZIONI [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+25-Nov-2021 17:52:34.671 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+25-Nov-2021 17:52:34.675 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+25-Nov-2021 17:52:34.679 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Thu Nov 25 17:52:34 CET 2021
+25-Nov-2021 17:52:34.679 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2021 (C) Apache TomEE Project, All Rights Reserved.
+25-Nov-2021 17:52:34.679 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.8
+25-Nov-2021 17:52:34.683 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20211010
+25-Nov-2021 17:52:34.683 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 06:45
+25-Nov-2021 17:52:34.683 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+25-Nov-2021 17:52:34.687 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee
+25-Nov-2021 17:52:34.691 INFORMAZIONI [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee
+25-Nov-2021 17:52:34.699 INFORMAZIONI [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4466af20
+25-Nov-2021 17:52:34.703 INFORMAZIONI [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+25-Nov-2021 17:52:35.023 INFORMAZIONI [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\conf\tomee.xml'
+25-Nov-2021 17:52:36.440 INFORMAZIONI [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+25-Nov-2021 17:52:36.440 INFORMAZIONI [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+25-Nov-2021 17:52:36.444 INFORMAZIONI [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=ds, type=Resource, provider-id=Default JDBC Database)
+25-Nov-2021 17:52:36.448 INFORMAZIONI [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+25-Nov-2021 17:52:36.452 INFORMAZIONI [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+25-Nov-2021 17:52:37.012 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+25-Nov-2021 17:52:37.496 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+25-Nov-2021 17:52:41.176 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=ds)
+25-Nov-2021 17:52:43.825 INFORMAZIONI [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+25-Nov-2021 17:52:46.388 INFORMAZIONI [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+25-Nov-2021 17:52:46.532 INFORMAZIONI [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+25-Nov-2021 17:52:46.532 INFORMAZIONI [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+25-Nov-2021 17:52:46.532 INFORMAZIONI [main] org.apache.openejb.server.SimpleServiceManager.start -------
+25-Nov-2021 17:52:46.532 INFORMAZIONI [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+25-Nov-2021 17:52:46.532 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [72827] milliseconds
+25-Nov-2021 17:52:46.860 INFORMAZIONI [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+25-Nov-2021 17:52:46.860 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+25-Nov-2021 17:52:49.524 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+25-Nov-2021 17:52:49.528 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/9.0.52 (8.0.8)]
+25-Nov-2021 17:52:50.048 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final.war]
+25-Nov-2021 17:52:50.064 INFORMAZIONI [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /tomee8.0.8_hibernate5.6Final
+25-Nov-2021 17:52:50.076 INFORMAZIONI [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final.war
+25-Nov-2021 17:52:53.044 INFORMAZIONI [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final
+25-Nov-2021 17:52:53.048 INFORMAZIONI [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+25-Nov-2021 17:52:59.460 INFORMAZIONI [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final
+25-Nov-2021 17:53:00.822 INFORMAZIONI [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+25-Nov-2021 17:53:00.822 INFORMAZIONI [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean tomee8.0.8_hibernate5.6Final.Comp15892131: Container(type=MANAGED, id=Default Managed Container)
+25-Nov-2021 17:53:00.822 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+25-Nov-2021 17:53:01.562 INFORMAZIONI [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\temp for stateful session passivation
+25-Nov-2021 17:53:01.602 INFORMAZIONI [main] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=prod)
+25-Nov-2021 17:53:01.610 INFORMAZIONI [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'dsNonJta' of type 'DataSource for 'prod'.
+25-Nov-2021 17:53:01.610 INFORMAZIONI [main] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=dsNonJta, type=Resource, provider-id=ds)
+25-Nov-2021 17:53:01.614 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=dsNonJta)
+25-Nov-2021 17:53:02.786 INFORMAZIONI [main] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit prod <jta-data-source> to Resource ID 'ds' from 'null'
+25-Nov-2021 17:53:02.786 INFORMAZIONI [main] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit prod <non-jta-data-source> to Resource ID 'dsNonJta' from 'null'
+25-Nov-2021 17:53:02.814 INFORMAZIONI [main] org.apache.openejb.util.OptionsLog.info Using 'javax.persistence.provider=org.hibernate.jpa.HibernatePersistenceProvider'
+25-Nov-2021 17:53:02.854 INFORMAZIONI [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final" loaded.
+25-Nov-2021 17:53:04.150 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final
+25-Nov-2021 17:53:04.506 INFORMAZIONI [main] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@4466af20
+25-Nov-2021 17:53:05.722 INFORMAZIONI [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+25-Nov-2021 17:53:05.746 INFORMAZIONI [main] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+25-Nov-2021 17:53:18.982 INFORMAZIONI [main] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+25-Nov-2021 17:53:19.026 INFORMAZIONI [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 13304 ms.
+25-Nov-2021 17:53:19.190 AVVERTENZA [main] org.apache.batchee.container.services.ServicesManager.init You didn't specify org.apache.batchee.jmx.application and JMX is already registered, skipping
+25-Nov-2021 17:53:19.194 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final)
+25-Nov-2021 17:53:20.263 INFORMAZIONI [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+25-Nov-2021 17:53:20.375 INFORMAZIONI [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+25-Nov-2021 17:53:20.995 INFORMAZIONI [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2021 17:53:21.023 INFORMAZIONI [main] org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer.addListener Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+25-Nov-2021 17:53:21.235 INFORMAZIONI [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+25-Nov-2021 17:53:23.426 INFORMAZIONI [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/C:/Users/mauro/Documents/NetBeansProjects/prog_nb_12.5_cxf_fileupload/tomee8.0.8_hibernate5.6Final/target/apache-tomee/lib/openwebbeans-el22-2.0.22.jar!/META-INF/faces-config.xml
+25-Nov-2021 17:53:23.436 INFORMAZIONI [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/C:/Users/mauro/Documents/NetBeansProjects/prog_nb_12.5_cxf_fileupload/tomee8.0.8_hibernate5.6Final/target/apache-tomee/lib/openwebbeans-jsf-2.0.22.jar!/META-INF/faces-config.xml
+25-Nov-2021 17:53:25.456 INFORMAZIONI [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.3.9' from path 'file:/C:/Users/mauro/Documents/NetBeansProjects/prog_nb_12.5_cxf_fileupload/tomee8.0.8_hibernate5.6Final/target/apache-tomee/lib/myfaces-api-2.3.9.jar'
+25-Nov-2021 17:53:25.456 INFORMAZIONI [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.3.9' from path 'file:/C:/Users/mauro/Documents/NetBeansProjects/prog_nb_12.5_cxf_fileupload/tomee8.0.8_hibernate5.6Final/target/apache-tomee/lib/myfaces-impl-2.3.9.jar'
+25-Nov-2021 17:53:25.507 INFORMAZIONI [main] org.apache.myfaces.util.ExternalSpecifications.lambda$static$1 MyFaces Core CDI support enabled
+25-Nov-2021 17:53:25.507 INFORMAZIONI [main] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+25-Nov-2021 17:53:25.667 INFORMAZIONI [main] org.apache.myfaces.util.ExternalSpecifications.lambda$static$0 MyFaces Core Bean Validation support enabled
+25-Nov-2021 17:53:25.984 INFORMAZIONI [main] org.apache.myfaces.application.ApplicationImpl.getProjectStage Couldn't discover the current project stage, using Production
+25-Nov-2021 17:53:25.984 INFORMAZIONI [main] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+25-Nov-2021 17:53:26.015 INFORMAZIONI [main] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+25-Nov-2021 17:53:43.154 INFORMAZIONI [main] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+25-Nov-2021 17:53:43.166 INFORMAZIONI [main] org.apache.myfaces.view.facelets.ViewPoolProcessor.initialize org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+25-Nov-2021 17:53:43.218 INFORMAZIONI [main] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [22183] ms.
+25-Nov-2021 17:53:45.143 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+25-Nov-2021 17:53:45.146 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@207dd1b7
+25-Nov-2021 17:53:45.146 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@6ed18d80
+25-Nov-2021 17:53:45.146 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@4c24f3a2
+25-Nov-2021 17:53:45.146 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@783b3aa0
+25-Nov-2021 17:53:45.146 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@2ec85a25
+25-Nov-2021 17:53:45.146 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@2baac4a7
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@4c176ff1
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@23ad2d17
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@6bce4140
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@25f0c5e7
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@2baac4a7
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@5882b202
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@120df990
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@23ad2d17
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@207dd1b7
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@6ed18d80
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@4c24f3a2
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@2ec85a25
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@783b3aa0
+25-Nov-2021 17:53:45.150 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@4c176ff1
+25-Nov-2021 17:53:45.155 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@6bce4140
+25-Nov-2021 17:53:45.155 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@25f0c5e7
+25-Nov-2021 17:53:45.155 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+25-Nov-2021 17:53:45.155 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@76ac68b0
+25-Nov-2021 17:53:45.155 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@66451058
+25-Nov-2021 17:53:45.155 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@f559c74
+25-Nov-2021 17:53:45.167 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/tomee8.0.8_hibernate5.6Final/api                -> mauro.jacksontomap.tomee8._hibernate5_6.JAXRSConfiguration@29bbc391
+25-Nov-2021 17:53:45.812 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/tomee8.0.8_hibernate5.6Final/api/echo           -> Pojo mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource
+25-Nov-2021 17:53:45.812 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/tomee8.0.8_hibernate5.6Final/api/echo           ->      String defaultEcho()
+25-Nov-2021 17:53:45.812 INFORMAZIONI [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/tomee8.0.8_hibernate5.6Final/api/echo/{locator} ->      String echo(String) 
+25-Nov-2021 17:53:46.806 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final.war] has finished in [56,758] ms
+25-Nov-2021 17:53:47.273 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2021 17:53:52.929 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [66392] milliseconds
+25-Nov-2021 17:56:09.320 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: prod]
+25-Nov-2021 17:56:09.548 INFO [http-nio-8080-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.0.Final
+25-Nov-2021 17:56:09.568 INFORMAZIONI [http-nio-8080-exec-2] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=prod, provider=org.hibernate.jpa.HibernatePersistenceProvider) - provider time 365ms
+25-Nov-2021 17:56:09.600 AVVERTENZA [http-nio-8080-exec-2] org.apache.cxf.phase.PhaseInterceptorChain.doDefaultLogging Application {http://boundary.echo._hibernate5_6.tomee8.jacksontomap.mauro/}EchoResource has thrown exception, unwinding now
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:56:09.604 AVVERTENZA [http-nio-8080-exec-2] org.apache.cxf.phase.PhaseInterceptorChain.unwind Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@24af7225
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:56:09.604 GRAVE [http-nio-8080-exec-2] org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage An unexpected error occurred during error handling. No further error processing will occur.
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:56:19.011 INFO [http-nio-8080-exec-3] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: prod]
+25-Nov-2021 17:56:19.019 INFORMAZIONI [http-nio-8080-exec-3] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=prod, provider=org.hibernate.jpa.HibernatePersistenceProvider) - provider time 9ms
+25-Nov-2021 17:56:19.019 AVVERTENZA [http-nio-8080-exec-3] org.apache.cxf.phase.PhaseInterceptorChain.doDefaultLogging Application {http://boundary.echo._hibernate5_6.tomee8.jacksontomap.mauro/}EchoResource has thrown exception, unwinding now
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:56:19.023 AVVERTENZA [http-nio-8080-exec-3] org.apache.cxf.phase.PhaseInterceptorChain.unwind Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@24af7225
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:56:19.023 GRAVE [http-nio-8080-exec-3] org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage An unexpected error occurred during error handling. No further error processing will occur.
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:58:13.683 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: prod]
+25-Nov-2021 17:58:13.701 INFORMAZIONI [http-nio-8080-exec-7] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=prod, provider=org.hibernate.jpa.HibernatePersistenceProvider) - provider time 20ms
+25-Nov-2021 17:58:13.702 AVVERTENZA [http-nio-8080-exec-7] org.apache.cxf.phase.PhaseInterceptorChain.doDefaultLogging Application {http://boundary.echo._hibernate5_6.tomee8.jacksontomap.mauro/}EchoResource has thrown exception, unwinding now
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:58:13.704 AVVERTENZA [http-nio-8080-exec-7] org.apache.cxf.phase.PhaseInterceptorChain.unwind Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@24af7225
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:58:13.704 GRAVE [http-nio-8080-exec-7] org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage An unexpected error occurred during error handling. No further error processing will occur.
+	org.apache.cxf.interceptor.Fault
+		at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+		at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+		at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+		at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+		at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+		at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+		at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+		at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:266)
+		at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:67)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NullPointerException
+		at org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createEntityManager(ReloadableEntityManagerFactory.java:210)
+		at org.apache.openejb.persistence.JtaEntityManagerRegistry.getEntityManager(JtaEntityManagerRegistry.java:125)
+		at org.apache.openejb.persistence.JtaEntityManager.getEntityManager(JtaEntityManager.java:145)
+		at org.apache.openejb.persistence.JtaEntityManager.find(JtaEntityManager.java:220)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.control.EchoManager.find(EchoManager.java:13)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource.echo(EchoResource.java:31)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.directProceed(AbstractInvocationContext.java:113)
+		at org.apache.webbeans.intercept.AbstractInvocationContext.proceed(AbstractInvocationContext.java:106)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:78)
+		at org.apache.openejb.cdi.transactional.InterceptorBase.intercept(InterceptorBase.java:67)
+		at org.apache.openejb.cdi.transactional.RequiredInterceptor.intercept(RequiredInterceptor.java:35)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.webbeans.component.InterceptorBean.intercept(InterceptorBean.java:136)
+		at org.apache.webbeans.intercept.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:65)
+		at org.apache.webbeans.intercept.DefaultInterceptorHandler.invoke(DefaultInterceptorHandler.java:139)
+		at mauro.jacksontomap.tomee8._hibernate5_6.echo.boundary.EchoResource$$OwbInterceptProxy0.echo(mauro/jacksontomap/tomee8/_hibernate5_6/echo/boundary/EchoResource.java)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+		at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+		... 37 more
+25-Nov-2021 17:59:17.917 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2021 17:59:17.917 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2021 17:59:18.708 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+25-Nov-2021 17:59:18.753 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\mauro\Documents\NetBeansProjects\prog_nb_12.5_cxf_fileupload\tomee8.0.8_hibernate5.6Final\target\apache-tomee\webapps\tomee8.0.8_hibernate5.6Final
+25-Nov-2021 17:59:20.399 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2021 17:59:20.429 INFORMAZIONI [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+25-Nov-2021 17:59:21.062 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: ds
+25-Nov-2021 17:59:21.074 INFORMAZIONI [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: dsNonJta
+25-Nov-2021 17:59:21.090 INFORMAZIONI [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
